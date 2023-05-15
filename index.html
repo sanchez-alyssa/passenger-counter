@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Passenger Counter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>People Entered:</h1>
+			<h1 id="count-el">0</h1>
+			<div class="btn">
+				<button onclick="increment()" id="increment">INCREMENT</button>
+				<button onclick="decrement()" id="decrement">DECREMENT</button>
+				<button onclick="save()" id="save-el">SAVE</button>
+			</div>
+			<h3 id="previous-el">Previous entered:</h3>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
